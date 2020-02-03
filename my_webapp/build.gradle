@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'war'
+
+group 'org.test'
+
+
+dependencies {
+	compile ('org.test:my_lib:1.0.0-SNAPSHOT') {changing = true}	
+}
+
+

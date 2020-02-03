@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+
+group 'org.test'
+
+
+dependencies {
+	compile group: 'org.apache.wicket', name: 'wicket-core', version: '8.7.0'
+}

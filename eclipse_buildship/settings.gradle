@@ -1,0 +1,4 @@
+rootProject.name = 'eclipse_buildship'
+
+includeBuild '../my_lib'
+includeBuild '../my_webapp'
